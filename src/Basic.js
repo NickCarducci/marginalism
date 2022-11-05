@@ -1,0 +1,764 @@
+import React from "react";
+import Cable from "./Dropwire";
+import { UAParser } from "ua-parser-js";
+
+export default class Basic extends React.Component {
+  constructor(props) {
+    super(props);
+    var parser = new UAParser();
+    const name = parser.getBrowser().name;
+    console.log(name);
+    this.state = {
+      onFactors: true,
+      trigger: false,
+      browser: name,
+      scrollTop: 0,
+      serviceCancelingImages: name.includes("Safari")
+    };
+    for (let i = 0; i < 220; i++) {
+      this["scrollImg" + i] = React.createRef();
+    }
+    this.plaintiff = React.createRef();
+    this.utility = React.createRef();
+  }
+  componentDidMount = () => {
+    this.handleScroll();
+    window.addEventListener("resize", this.refresh);
+    window.addEventListener("scroll", this.handleScroll);
+    this.refresh(true);
+    const { pathname } = this.props;
+    clearTimeout(this.starttime);
+    this.starttime = setTimeout(() => {
+      this.check(pathname);
+    }, 500);
+  };
+  check = (pathname) => {
+    if (pathname === "/plaintiff") {
+      window.scroll(0, this.plaintiff.current.offsetTop);
+    } else if (pathname === "/utility") {
+      this.setState(
+        {
+          onFactors: false,
+          onVaumoney: false
+        },
+        () => window.scroll(0, this.utility.current.offsetTop)
+      );
+    }
+  };
+  componentDidUpdate = (prevProps) => {
+    const { pathname, basic } = this.props;
+    if (
+      this.props !== prevProps ||
+      basic !== prevProps.basic ||
+      pathname !== prevProps.pathname
+    ) {
+      this.check(pathname);
+    }
+  };
+  componentWillUnmount = () => {
+    clearTimeout(this.starttime);
+    clearTimeout(this.scrollTimeout);
+    clearTimeout(this.resizeTimer);
+    window.removeEventListener("resize", this.refresh);
+    window.removeEventListener("scroll", this.handleScroll);
+  };
+  handleScroll = (e) => {
+    if (!this.state.offScroll) {
+      const scrollTop = window.scrollY;
+      this.setState(
+        {
+          scrolling: true,
+          scrollTop
+        },
+        () => {
+          clearTimeout(this.scrollTimeout);
+          this.scrollTimeout = setTimeout(() => {
+            this.setState({
+              scrolling: false
+            });
+          }, 900);
+        }
+      );
+    } //"abolish exchange value" - CJ
+    //social capital estranged from the rollover/expiry individual
+    //govrent assert the universal. "'capitaism is small gov ad freedom' so much no"
+  }; //authority is unique for payment for the transaction requires it,
+  //but for instance a distributed database for a death registry, would not
+  //acheive trustlessness by the same methods
+  refresh = (first) => {
+    const width =
+      (this.state.ios ? window.screen.availWidth : window.innerWidth) - 20;
+    if (first || Math.abs(this.state.lastWidth - width) > 0) {
+      clearTimeout(this.resizeTimer);
+      this.resizeTimer = setTimeout(() => {
+        this.setState({
+          lastWidth: width,
+          width,
+          availableHeight: this.state.ios
+            ? window.screen.availHeight - 20
+            : window.innerHeight
+        });
+      }, 600);
+    }
+  };
+  render() {
+    const handleScollImgError = (e) => {
+      if (e.message) {
+        console.log(e.message);
+        this.setState({ serviceCancelingImages: true });
+      }
+    };
+    let arrayOfnumbers = 0;
+    const scrollnum = () => {
+      arrayOfnumbers = arrayOfnumbers + 1; //arrayOfnumbers[arrayOfnumbers.length - 1] + 1;
+      //arrayOfnumbers.push(num);
+      //console.log(arrayOfnumbers)
+      return arrayOfnumbers;
+    };
+    const space = " ";
+    if (this.state.onFactors) {
+      return (
+        <div
+          style={{
+            border: "1px solid rgb(200,200,200)",
+            overflow: "hidden",
+            //margin: "5px",
+            fontFamily: "'Comfortaa', cursive",
+
+            wordBreak: "break-word",
+            textAlign: "left",
+            width: "100%",
+            maxWidth: "600px",
+            position: "relative",
+            cursor: "pointer"
+          }}
+        >
+          <div
+            style={{
+              position: "fixed", //salt bank vaults royalty stewardship
+              right: "0px", //living commodities at the equator
+              top: "0px",
+              cursor: "pointer"
+            }}
+            onClick={() => this.setState({ onFactors: false })}
+          >
+            back
+          </div>
+          That is to say, any particular machine may yield an income which is of
+          the nature of a rent, and which is sometimes called a Rent; though on
+          the whole, there seems to be some advantage in calling it a
+          Quasi-rent. But we cannot properly speak of the interest yielded by a
+          machine. If we use the term "interest" at all, it must be in relation
+          not to the machine itself, but to its money value.
+          <br />
+          <br />
+          Monetary theory has no ideological content. It deals with a scientific
+          question—how a particular social contrivance works. It may surprise
+          most readers to learn that, in today’s terminology, Karl Marx could be
+          labeled a “monetarist”—a term that is currently, if incorrectly,
+          regarded as almost synonymous with “conservative” or “pro free
+          market.” (Milton Friedman, Marx and Money, 27 October 1980. p. The
+          Newsweek/Daily Beast Company, p. 95; Hoover Inst.)
+          <br />
+          <br />
+          layoffs will make deflation, better products will get ayoffs
+          (technologsts do t seek m0ore problems; I'll take a mudpie to a non
+          deflationary job and I will have ONE apple pie.
+          <br />
+          1. A RECESSION IS A fall of shrinkflation, benefits from essential
+          institutions, and layoffs
+          <br />
+          if the economy settled would be property, what is the dollar vs bond
+          <br />
+          2. machine rent is how capital wedges labor
+          {/*
+          Supply and demand comp prices. A recession of less real GDP = shrink + benefits* + layoffs.
+          *non-essential institutions need not apply.
+
+          recession summation of machine
+          */}
+          <h1>Moral rent, disutility of labor, and tragedian art</h1>
+          <h2>The Will to Gen</h2>
+          Paul starts from the need for a mystery felt by the broad, religiously
+          excited masses: he seeks a sacrifice, a bloody phantas­ magoria which
+          will stand up in competition with the images of the mystery cults: God
+          on the cross, blood-drinking, the urtio mystica with the “sacrifice.”
+          He seeks to bring the afterlife (the blissful, atoned afterlife of the
+          individual soul) as resurrection into a causal relationship with that
+          sacrifice (after the type of Dionysus, Mithras, Osiris). He needs to
+          bring the concept guilt and atonement into the foreground, not a new
+          way of life (as Jesus himself had demon­ strated and lived) but a new
+          cult, a new faith, a faith in a miraculous transformation (
+          “redemption” through faith). He understood what the pagan world had
+          the greatest need of, and from the facts of Christ’s life and death
+          made a quite arbitrary selection, giving everything a new
+          accentuation, shifting the emphasis everywhere—he annulled primitive
+          Christianity as a matter or principle— The attempt to destroy priests
+          and theologians culminated, thanks to Paul, in a new priesthood and
+          theology—in a new ruling order and a church. The attempt to destroy
+          the exaggerated inflation of the “person” culminated in faith in the
+          “eternal person” (in concern for “eternal salvation”—), in the most
+          paradoxical excess of personal egoism* This is the humor of the
+          situation, a tragic humor: Paul re­ erected on a grand scale precisely
+          that which Christ had annulled through his way of living. At last,
+          when the church was complete, it sanctioned even the existence of the
+          state.
+          <h2 style={{ margin: "4px 0px", backgroundColor: "rgb(22, 93, 49)" }}>
+            <i style={{ color: "linen" }}>
+              This Jesus of Nazareth, the incarnate gospel of love, this "
+              Redeemer" bringing salvation and victory to the poor, the sick,
+              the sinful-was he not really temptation in its most sinister and
+              irresistible form, temptation to take the tortuous path to those
+              very Jewish values and those very Jewish ideals?
+            </i>
+          </h2>
+          <div
+            style={{ padding: "10px", backgroundColor: "rgb(252, 255, 179)" }}
+          >
+            O’Prophet, tell your wives and your daughters and the women of the
+            believers to draw their cloaks close round them (when they go
+            abroad). That will be better, so that they may be recognised and not
+            annoyed. Allah is ever Forgiving, Merciful. (Quran 33:59).
+          </div>
+          A nihilistic religion [like Christianity], sprung from and appropriate
+          to a people grown old and tame, having outlived all strong
+          instincts—transferred step by step to another milieu, at length
+          entering into youthful peoples which have not yet lived at all—very
+          curious! The bliss of the close, the fold, the evening preached to
+          barbarians and Germans! How thoroughly all that I first had to be
+          barbarized, Germanized! To those who had dreamed a Valhalla: who found
+          happiness only in war!—A su­ pranational religion preached in a chaos
+          where no nations even existed yet—The only way to refute priests and
+          religions is this: to show that their errors have ceased to be
+          beneficial—that they rather do harm; in short, that their own “proof
+          of power” no longer holds good—
+          <br />
+          <br />
+          Nothing is further from Buddhism than the Jewish fanaticism of a Paul:
+          nothing would be more repellent to its instincts than this tension,
+          fire, un­ rest of the religious man, above all that form of sensuality
+          that Christianity has sanctified with the name “love,” Moreover, it is
+          the cultured and even the overspirited orders that find satisfaction
+          in Buddhism: a race satiated and wearied by centuries of philo­
+          sophical contentions, not, however, beneath all culture, like the
+          {space}
+          <span style={{ backgroundColor: "navy", color: "white" }}>
+            <a style={{ color: "white" }} href="https://marginalism.uk/classes">
+              classes
+            </a>
+            {space}from which Christianity arose— Emancipation even from good
+            and evil appears to be of the essence of the Buddhist ideal: a
+            refined state beyond morality is conceived that is identical with
+            the state of perfection, in the presupposition that one needs to
+            perform even good actions only for the time being, merely as a
+            means—namely, as a means to emancipation from all actions.
+          </span>
+          <h1>"Faith" or "works"?</h1>— But that "works,” the habit of certain
+          works, should engender a certain evaluation and finally a certain
+          disposition is as natural as it is unnatural that mere evaluation
+          should produce “works.” One must practice deeds, not the strength­
+          ening of one’s value-feelings; one must first have some ability— The
+          Christian dilettantism of Luther. Faith is a pons asinorum.u The
+          background is a profound conviction on the part of Luther and his kind
+          of their incapacity for Christian works, a personal fact disguised
+          beneath an extreme doubt as to whether activity of all kinds is not
+          sin and the work of the Devil: so that the value of existence resides
+          in single highly tensed conditions of inactivity (prayer, effusion,
+          etc.),— In the last resort he was right: the in­ stincts expressed in
+          all the actions of the Reformers are the most brutal that exist. Only
+          by an absolute turning away from them­ selves, by absorption in their
+          opposite, only as an illusion (“faith”) was existence endurable to
+          them.
+          <br />
+          <br />I like not the agitators dressed up aslieroes, who hide their
+          dummy-heads behind the stalking-horse of an ideal; I like not the
+          ambitious artists who would fain play the ascetic and the priest, and
+          are at bottom nothing but tragic clowns; I like not, again, these
+          newest speculators in idealism, the Anti-Semites, who nowadays roll
+          their eyes in the patent Christian-Aryan-man-of- honour fashion, and
+          by{space}
+          <i>
+            an abuse of{space}
+            <a href="https://commie.dev/anarchy">moralist</a>
+            {space}attitudes and agitation dodges, so cheap as to exhaust any
+            patience
+          </i>
+          , strive to excite all the{space}
+          <a href="https://reddit.com/r/moralanarchism">blockhead</a>
+          {space}elements in the populace.
+          <br />
+          <br />
+          We have in our hands the possibility of idealising the whole earth.
+          But what am I talking about courage? we only need one thing here-a
+          hand, a free, a very free hand.
+          <br />
+          <br />
+          brotherhood on the basis of sharing food and drink to­ gether after
+          the Hebrew-Arabic custom, as “the miracle of tran- substantiation” ;
+          <br />
+          <br />
+          There are only sins against God; men shall not judge acts done against
+          men, nor demand a reckoning, except in the name of God.
+          <br />
+          <br />
+          <span style={{ backgroundColor: "darkslategray", color: "white" }}>
+            The state of nature is terrible, man is a beast of prey; our
+            civilization represents a tremendous triumph over this beast-of-prey
+            nature: thus argued Voltaire.{space}
+            <i style={{ color: "lightsteelblue" }}>
+              He felt the mitigation, the subtleties, the spiritual joys of the
+              civilized state; he despised narrowmindedness, also in the form of
+              virtue, and the lack of delicatesse, also among ascetics and
+              monks.
+            </i>
+            {space}
+            <span style={{ color: "gainsboro" }}>
+              The moral reprehensibility of man seemed to preoccupy Rousseau;
+              with the words “unjust” and “cruel” one can best stir up the
+              instincts of the oppressed who otherwise smart under the ban of
+              the{space}
+              <i>vetitum</i>
+              {space}and disfavor, so their conscience advises them against
+              rebellious cravings. Such emancipators seek one thing above all:
+              to give their party the grand accents and poses of the higher
+              nature.
+            </span>
+          </span>
+          <br />
+          <br />
+          Rousseau: the rule based on feeling; nature as the source of justice;
+          man perfects himself to the extent to which he approaches nature
+          (according to Voltaire, to the extent to which he moves away from
+          nature). The very same epochs are for one ages of the progress of
+          humanity; for the other, times when injustice and inequality grow
+          worse. Voltaire still comprehended umanita in the Renaissance sense;
+          {space}
+          <span style={{ color: "lightskyblue", backgroundColor: "cadetblue" }}>
+            There is nothing better than what is good— and good is having some
+            ability and using that to create,{space}
+            <i>Tuchtigkeit</i>
+            {space}(or{space}
+            <i>virtu</i>, in the Italian Renaissance sense, as “high culture”);
+            he fights for the cause of the “<i>honnetes gens</i>" and "
+            <i>de la bonne compagnie</i>“ the cause of taste, of science, of the
+            arts, of progress itself and civilization. The fight began around
+            1760: the citizen of Geneva and le seigneur de Ferney. Only from
+            that moment on Voltaire becomes the man of his century, the
+            philosopher, the representative of tolerance and unbelief (till then
+            merely{space}
+            <i>un bel esprit</i>) Envy and hatred of Rousseau’s success impelled
+            him forward, “
+            <a href="https://ia803205.us.archive.org/27/items/FriedrichNietzscheTheWillToPower/Friedrich%20Nietzsche%20-%20The%20Will%20to%20Power.pdf#page=97">
+              to the heights
+            </a>
+            .”
+          </span>
+          <h2>
+            Moralistic naturalism: the tracing back of apparently emanci­ pated,
+            supranatural moral values to their “nature”: i.e., to natural
+            immorality, to natural “utility,” etc.
+          </h2>
+          <h3>
+            I might designate the tendency of these reflections as moral­ istic
+            naturalism:{space}
+            <span style={{ backgroundColor: "darkslategray", color: "white" }}>
+              my task is to translate the apparently emancipated and denatured
+              moral values{space}
+              <i>
+                back into their nature—i.e., into their natural “immorality.”
+              </i>
+            </span>
+          </h3>
+          <h4>
+            <a href="https://saverparty.xyz/jesus">Jesus</a>
+            {space}(run!) starts directly with the condition the “Kingdom of
+            Heaven” in the heart, and he does not find the means to it in the
+            observances of the Jewish church; the reality of Judaism itself (its
+            need to preserve itself) he regards as nothing; he is purely
+            inward.—{space}
+            <i style={{ color: "grey" }}>
+              He likewise ignores the entire system of crude formalities
+              governing intercourse with God: he opposes the whole teaching of
+              repentance and atonement; he demonstrates how one must live in
+              order to feel “deified”—and how one will not achieve it through
+              repentance and contrition for one’s sins: “Sin is of no account”
+              is his central judgment. Sin, repentance, forgiveness—none of this
+              belongs here—it is acquired from Judaism, or it is pagan.
+            </i>
+            {space}
+            <span
+              style={{
+                fontSize: "12px",
+                backgroundColor: "indigo",
+                color: "gold"
+              }}
+            >
+              Attempt by antipaganism to found and make itself possible
+              philosophically: predilection for the ambiguous figures Of the old
+              culture, above all for Plato, that instinctive Semite and
+              anti-Hellene —also for Stoicism, which is essentially the work of
+              Semites (
+              <i>
+                —“dignity” as strictness, law, virtue as greatness,
+                self-responsi­bility, authority, as supreme sovereignty over
+                one’s own person— this is Semitic.
+              </i>
+              {space}The Stoic is an Arabian sheik wrapped in Greek togas and
+              concepts)
+            </span>
+            <br />
+            This is the humor of the situation, a tragic humor: Paul re­-erected
+            on a grand scale precisely that which Christ had annulled through
+            his way of living. At last, when the church was complete, it
+            sanctioned even the existence of the state.
+            <br />
+            <span
+              style={{
+                fontSize: "12px",
+                backgroundColor: "firebrick",
+                color: "white"
+              }}
+            >
+              Jesus starts directly with the condition the “Kingdom of Heaven”
+              in the heart, and he does not find the means to it in the
+              observances of the Jewish church; the reality of Judaism itself
+              (its need to preserve itself) he regards as nothing; he is purely
+              inward.— He likewise ignores the entire system of crude
+              formalities governing intercourse with God: he opposes the whole
+              teaching of repentance and atonement; he demonstrates how one must
+              live in order to feel “deified”—and how one will not achieve it
+              through repentance and contrition for one’s sins: “Sin is of no
+              account” is his central judgment. Sin, repentance,
+              forgiveness—none of this belongs here—it is acquired from Judaism,
+              or it is pagan.
+            </span>
+            <br />I like not the agitators dressed up as heroes, who hide their
+            dummy-heads behind the stalking-horse of an ideal; I like not the
+            ambitious artists who would fain play the ascetic and the priest,
+            and are at bottom nothing but tragic clowns; I like not, again,
+            these newest speculators in idealism, the Anti-Semites, who nowadays
+            roll their eyes in the patent Christian-Aryan-man-of-honour fashion,
+            and by an abuse of moralist attitudes and agitation dodges, so cheap
+            as to exhaust any patience, strive to excite all the blockhead
+            elements in the populace.
+            <br />
+            <span
+              style={{
+                fontSize: "12px",
+                backgroundColor: "darkviolet",
+                color: "white"
+              }}
+            >
+              An apostasy and reversion to the morbid Christian and obscurantist
+              ideals? And finally a self-negation and self-elimination on the
+              part of an artist, who till then had devoted all the strength of
+              his will to the contrary, namely, the highest artistic expression
+              of soul and body. And not only of his{space}
+              <a style={{ color: "white" }} href="https://wavv.art">
+                art
+              </a>
+              ; of his life as well.
+              <br />
+              That, as I have said, would have been quite worthy of a great
+              tragedian; who like every artist first attains the supreme
+              pinnacle of his greatness when he can look down into himself and
+              his art, when he can laugh at himself.
+            </span>
+            <br />
+            <br />
+            <span
+              style={{
+                fontSize: "12px",
+                backgroundColor: "cadetblue",
+                color: "white"
+              }}
+            >
+              [O]ur old morality too is fit material{space}
+              <i>for Comedy</i>[. We] have discovered a new plot, and a new
+              possibility for the Dionysian drama entitled{space}
+              <i>The Soul's Fate</i>-and he will speedily utilise it, one can
+              wager safely, the, the great ancient eternal dramatist of the
+              comedy of our existence.
+            </span>
+            <br />
+            <br />
+            Science—this has been hitherto a way of putting an end to the
+            complete confusion in which things exist, by hypotheses that
+            “explain” everything—so it has come from the intellect’s dislike of
+            chaos.— This same dislike seizes me when I consider myself: I should
+            like to form an image of the inner world, too, by means of some
+            schema, and thus triumph over intellectual confusion. Morality has
+            been a simplification of this kind: it taught that men were known,
+            familiar.— Now we have destroyed morality—we have again become
+            completely obscure to ourselves! I know that I know nothing of
+            myself. Physics proves to be a boon for the heart: science (as the
+            way to knowledge) acquires a new charm after morality has been
+            eliminated—and because it is here alone that we find consistency, we
+            have to construct our life so as to preserve it. This yields a sort
+            of practical reflection on the con­ ditions of our existence as men
+            of knowledge.
+          </h4>
+        </div>
+      );
+    } else if (this.state.onVaumoney) {
+      return (
+        <div
+          style={{
+            border: "1px solid rgb(200,200,200)",
+            overflow: "hidden",
+            //margin: "5px",
+            fontFamily: "'Comfortaa', cursive",
+
+            wordBreak: "break-word",
+            textAlign: "left",
+            width: "100%",
+            maxWidth: "600px",
+            position: "relative",
+            cursor: "pointer"
+          }}
+        >
+          <div
+            style={{
+              position: "fixed", //salt bank vaults royalty stewardship
+              right: "0px", //living commodities at the equator
+              top: "0px",
+              cursor: "pointer"
+            }}
+            onClick={() => this.setState({ onVaumoney: false })}
+          >
+            vau.money
+          </div>
+          <h4 style={{ margin: "4px 0px" }}>Do cops vote?</h4>
+          <div
+            style={{
+              position: "fixed", //salt bank vaults royalty stewardship
+              right: "0px", //living commodities at the equator
+              bottom: "0px",
+              cursor: "pointer"
+            }}
+            onClick={() => this.setState({ onFactors: true })}
+          >
+            factors
+          </div>
+        </div>
+      );
+    } else
+      return (
+        <div
+          style={{
+            border: "1px solid rgb(200,200,200)",
+            overflow: "hidden",
+            //margin: "5px",
+            fontFamily: "'Comfortaa', cursive",
+
+            wordBreak: "break-word",
+            textAlign: "left",
+            width: "100%",
+            maxWidth: "600px",
+            position: "relative"
+          }}
+        >
+          Aren’t contracts surrendered? Isn't a contract legal until proven
+          otherwise?
+          <h2>
+            How many apple pies? Every apple pie is getting more expensive{" "}
+          </h2>
+          Isn't marginalism the thread of the individual? The geometric
+          proportional mean is aside from arithmetic but for whole pairs between
+          units instead of one type. The cardinal slope matrix inside ordinal
+          individuals is all but a null-point and so its negation takes a
+          non-deflationary supply.
+          <br />
+          <br />
+          <a href="https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Physical_imports_and_exports#Physical_trade_by_stage_of_manufacturing">
+            <Cable
+              style={{ width: "100%" }}
+              onError={handleScollImgError}
+              img={true}
+              src={
+                this.state.noyout
+                  ? ""
+                  : "https://www.dropbox.com/s/gdn9zrc8fia203c/Physical%20material%20trade%20goods%20EU%202000-21.png?raw=1"
+              }
+              float={"right"}
+              title=" https://ec.europa.eu/eurostat/statistics-explained/index.php?title=File:Physical_trade_of_goods_by_main_material_category_and_monetary_trade_of_goods,_EU,_2000-21.png"
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + scrollnum()]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+          </a>
+          <a href="https://www.quora.com/How-can-one-argue-with-Marx-although-I-am-not-a-Marxist-that-many-interests-of-both-blue-and-white-collar-labor-are-diametrically-opposed-to-those-of-Capital-in-that-Capital-wants-to-pay-least-for-labor-while-labor/answer/Nick-Carducci">
+            fdi+import
+          </a>
+          {/**rich salt */}
+          {space}={space}
+          <a href="https://saverparty.xyz/poverty">developed</a>
+          <br />
+          <br />
+          <i>
+            social insurance as production has it is no insurance (induction of
+            non-extractibly-pyramid ponzi scheme)
+          </i>
+          <br />
+          52% 39% 15%
+          <br />
+          <br />
+          (Assuming they overlap) are you one of the 67% pro-immigration, 39%
+          ban private-insurance (for universal), 95% occupy wall street
+          non-voters?
+          <br />
+          <br />
+          don't non voters want to be{space}
+          <a href="https://nonvoters.quora.com">hated</a>?
+          {/**war or butter! (commie.dev/police) real inflation smol biz - inflationary job non-
+        
+        ​one man's non-deflationary job is another man's real inflation giving money away
+        
+
+        Ah yes, if you fight fire with fire the whole world turns ablaze.
+
+        I would therefore prefer to burn Property by a slow fire, rather than give it new 
+        strength by making a St Bartholomew’s night of the proprietors.
+
+        Truly there is no hope for you. Be gone devil ape!
+        */}
+          <br />
+          <br />
+          <i>
+            Why does the right wing say a majority of people want to decrease
+            immigration when 52% Republicans, 67% Independents/non-voters, and
+            83% Democrats don’t?
+          </i>
+          <br />
+          <hr ref={this.utility} />
+          Isn't the Jevons' paradox{space}
+          <a href="https://comlib.quora.com/Isnt-the-Jevons-paradox-bonkers-1">
+            bonkers
+          </a>
+          ?
+          <br />
+          In economics, the Jevons paradox (/ˈdʒɛvənz/; sometimes Jevons effect)
+          occurs when technological progress or government policy increases the
+          efficiency with which a resource is used (reducing the amount
+          necessary for any one use), but the falling cost of use increases its
+          demand, negating reductions in resource use.
+          <br />
+          <br />
+          As american as apple{space}
+          <a href="https://commie.dev">pie</a>. perpetually more cookies with
+          perpetually more expensive recipes pulled from the public{space}
+          <a href="https://commie.dev/domain">domain</a>
+          <br />
+          <br />
+          Implausible (cannot) use more than one yacht (give it a rest), Oh
+          Prophet! How capital will pay the most and consume the most if the
+          market is made and prices are the same.
+          <br />
+          <br />
+          <div style={{ backgroundColor: "salmon" }}>
+            Only sellers and market makers know unless you discount price
+            changes for volume, albeit this is subject to spoofing/painting tape
+            by said market makers (for propaganda purposes). I’m not sure how
+            disparaging this actually is from real price to volume balance.
+          </div>
+          <h4>
+            Donkey and elephant will do anything for a marginal apple pie{space}
+            <span role="img" aria-label="squirrel">
+              🐿
+            </span>
+            {space}we diminish marginal utility.{space}
+            <span style={{ color: "cadetblue" }}>
+              Why does Mark Levin blame{space}
+              <a href="https://crime-data-explorer.fr.cloud.gov/pages/explorer/crime/shr">
+                illegal
+              </a>
+              {space}immigration for rape?
+            </span>
+            {space}
+            <i>Do you think Social Security causes youth to commit crime?</i>
+            <a href="https://www.ssa.gov/oact/ProgData/tsOps.html">
+              <Cable
+                style={{ width: "100%" }}
+                onError={handleScollImgError}
+                img={true}
+                src={
+                  this.state.noyout
+                    ? ""
+                    : "https://www.dropbox.com/s/8q8x8tw7rszq2q2/Screen%20Shot%202022-10-31%20at%208.58.03%20PM.png?raw=1"
+                }
+                float={"right"}
+                title="tsOps - https://www.ssa.gov/oact/ProgData/tsOps.html"
+                scrolling={this.state.scrolling}
+                fwd={this["scrollImg" + scrollnum()]}
+                scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+                scrollTop={this.state.scrollTop}
+              />
+            </a>
+            <a href="https://www.ssa.gov/oact/ProgData/assets.html">
+              <Cable
+                style={{ width: "100%" }}
+                onError={handleScollImgError}
+                img={true}
+                src={
+                  this.state.noyout
+                    ? ""
+                    : "https://www.dropbox.com/s/sukvhn4qlhb0eoj/Screen%20Shot%202022-10-31%20at%208.56.57%20PM.png?raw=1"
+                }
+                float={"right"}
+                title="assets - https://www.ssa.gov/oact/ProgData/assets.html"
+                scrolling={this.state.scrolling}
+                fwd={this["scrollImg" + scrollnum()]}
+                scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+                scrollTop={this.state.scrollTop}
+              />
+            </a>
+          </h4>
+          <div
+            style={{
+              position: "fixed", //salt bank vaults royalty stewardship
+              right: "0px", //living commodities at the equator
+              bottom: "0px",
+              cursor: "pointer"
+            }}
+            onClick={() => this.props.setBasic()}
+          >
+            more
+          </div>
+          <div
+            style={{
+              position: "fixed", //salt bank vaults royalty stewardship
+              right: "0px", //living commodities at the equator
+              top: "0px",
+              cursor: "pointer"
+            }}
+            onClick={() => this.setState({ onVaumoney: true })}
+          >
+            why?
+          </div>
+          {/**
+        
+            <Cable
+              style={{
+                boxShadow: "0px 0px 0px 0px transparent",
+                width: "100px",
+                transform: "scale(-1,1)"
+              }}
+              onError={handleScollImgError}
+              img={true}
+              src={
+                this.state.noyoutube
+                  ? ""
+                  : "https://www.dropbox.com/s/zgceu1uen2ov9n1/transparentSaverAcorn.png?raw=1"
+              }
+              float={null}
+              title="author"
+              scrolling={this.state.scrolling}
+              fwd={this.henri}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={!this.state.oldecon ? 0 : this.state.scrollTop}
+            /> */}
+        </div>
+      );
+  }
+}
