@@ -528,7 +528,73 @@ export default class Basic extends React.Component {
           >
             vau.money
           </div>
-          <h4 style={{ margin: "4px 0px" }}>Do cops vote?</h4>
+          <h4 style={{ margin: "4px 0px" }}>Do cops vote?</h4>I think only the
+          developmentally disabled and/or injured should receive{space}
+          <a href="https://2024nj.com/disability">SSDI</a>.
+          <br />
+          <i>
+            For every one who has any idea of the life of the labouring classes
+            it is evident that without{space}
+            <a href="https://www.reddit.com/r/moralanarchism/comments/ynkqmk/comparing_and_contrasting_bookchin_and_kropotkin/">
+              mutual aid being practised
+            </a>
+            {space}among them on a large scale they never could pull through all
+            their difficulties. It is only by chance that a worker’s family can
+            live its lifetime without having to face such circumstances as the
+            crisis described by the ribbon weaver, Joseph Gutteridge, in his
+            autobiography. And if all do not go to the ground in such cases,
+            {space}
+            <a href="https://theanarchistlibrary.org/library/petr-kropotkin-mutual-aid-a-factor-of-evolution">
+              they owe it to mutual help. In Gutteridge’s case it was an old
+              nurse, miserably poor herself, who turned up at the moment when
+              the family was slipping towards a final catastrophe, and brought
+              in some bread, coal, and bedding, which she had obtained on
+              credit.
+            </a>
+            {space}
+            In other cases, it will be some one else, or the neighbours will
+            take steps to save the family. But without some aid from other poor,
+            how many more would be brought every year to irreparable ruin!
+          </i>
+          <br />
+          <i>
+            <b>
+              Ah yes,{space}
+              <a href="https://www.un.org/en/genocideprevention/documents/atrocity-crimes/Doc.15_supplementary%20slaverytrade.pdf#page=3">
+                usufructuary rights
+              </a>
+            </b>
+            /material duty
+          </i>
+          <br />
+          <i>
+            The day on which, in consequence of the development of the
+            revolutionary situation, the governments are swept out by the people
+            and disorganization is created in the ranks of the bourgeoisie who
+            can only survive through the protection of the State, the insurgent
+            people will not wait for any old government in its marvelous wisdom
+            to decree economic reforms. They will abolish individual property by
+            themselves taking possession, in the name of the whole people and by
+            violent expropriation of the whole of social wealth which had been
+            accumulated by the work of past generations.{space}
+            <a href="https://www.marxists.org/reference/archive/kropotkin-peter/1885/words-of-a-rebel/chapter11.html">
+              They will not stop short at expropriating the owners of social
+              capital by a decree that will remain a dead letter; they will take
+              possession and establish their rights of usufruct immediately.
+            </a>
+            {space}
+            They will organize the workshops so that they continue production.
+            They will exchange their hovels for healthy habitations in the
+            houses of the well-todo; they will immediately find ways of
+            utilizing the riches accumulated in the cities; they will take
+            possession of it as if all this wealth had never been stolen from
+            them by the bourgeoisie. Once the industrial baron who seized his
+            booty from the worker has been evicted, production will continue,
+            shaking off the fetters that hinder it, abolishing the speculations
+            that kill it, getting rid of the muck that hinders its development,
+            and changing it according to the needs of the moment under the
+            impetus provided by freedom of work.
+          </i>
           <div
             style={{
               position: "fixed", //salt bank vaults royalty stewardship
