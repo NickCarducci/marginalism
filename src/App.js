@@ -18,7 +18,7 @@ export default class App extends React.Component {
     this.assumepath();
   };
   assumepath = () => {
-    if (!["/", "/utility"].includes(this.state.p)) {
+    if (!["/", "/utility", "/cops"].includes(this.state.p)) {
       this.setState({ basic: false });
       // trigger = true;
     }
