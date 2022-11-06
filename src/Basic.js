@@ -20,6 +20,7 @@ export default class Basic extends React.Component {
     }
     this.plaintiff = React.createRef();
     this.utility = React.createRef();
+    this.cops = React.createRef();
   }
   componentDidMount = () => {
     this.handleScroll();
@@ -42,6 +43,14 @@ export default class Basic extends React.Component {
           onVaumoney: false
         },
         () => window.scroll(0, this.utility.current.offsetTop)
+      );
+    } else if (pathname === "/cops") {
+      this.setState(
+        {
+          onFactors: false,
+          onVaumoney: true
+        },
+        () => window.scroll(0, this.cops.current.offsetTop)
       );
     }
   };
@@ -528,8 +537,11 @@ export default class Basic extends React.Component {
           >
             vau.money
           </div>
-          <h4 style={{ margin: "4px 0px" }}>Do cops vote?</h4>I think only the
-          developmentally disabled and/or injured should receive{space}
+          <h4 ref={this.cops} style={{ margin: "4px 0px" }}>
+            Do cops vote?
+          </h4>
+          I think only the developmentally disabled and/or injured should
+          receive{space}
           <a href="https://2024nj.com/disability">SSDI</a>.
           <br />
           <i>
