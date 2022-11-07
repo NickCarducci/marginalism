@@ -271,6 +271,27 @@ class App extends React.Component {
             <br />
             <div
               style={{
+                backgroundColor: "white",
+                color: "grey",
+                padding: "10px",
+                borderLeft: "2px solid cornflowerblue"
+              }}
+            >
+              Is it to be enough to set foot on a plot of common ground, in
+              order to be able to call yourself at once the master of it? Is it
+              to be enough that a man has the strength to expel others{space}
+              <a href="https://www.marxists.org/reference/subject/economics/rousseau/social-contract/ch01.htm#009">
+                for a moment, in order
+              </a>
+              {space}to establish his right to prevent them from ever returning?
+              How can a man or a people seize an immense territory and keep it
+              from the rest of the world except by a punishable usurpation,
+              since all others are being robbed, by such an act, of the place of
+              habitation and the means of subsistence which nature gave them in
+              common?
+            </div>
+            <div
+              style={{
                 backgroundColor: "gainsboro",
                 color: "grey",
                 padding: "10px",
@@ -279,18 +300,20 @@ class App extends React.Component {
             >
               <i>
                 It is necessary to distinguish carefully the complete right of
-                property, which is founded on labour, from the transient right
-                of possession which is acquired by mere priority of occupancy;
-                thus, before the appropriation of land, if any individual had
-                occupied a particular spot, for repose or shade, it would have
-                been unjust to deprive him of possession of it. This, however,
-                was only a transient right. The spot of ground would again
-                become common, the moment the occupier had left it; that is, the
-                right of possession would remain no longer than the act of
-                possession. Cicero illustrates this happily by the similitude of
-                a theatre. 'Quemadmodum theatrum, cum commune sit, recte tamen
-                dici potest ejus esse cum locum quem quisque occuparit.' The
-                general conclusions which I deduce are these:
+                {space}
+                <a href="https://commie.dev/props">property</a>, which is
+                founded on labour, from the transient right of possession which
+                is acquired by mere priority of occupancy; thus, before the
+                appropriation of land, if any individual had occupied a
+                particular spot, for repose or shade, it would have been unjust
+                to deprive him of possession of it. This, however, was only a
+                transient right. The spot of ground would again become common,
+                the moment the occupier had left it; that is, the right of
+                possession would remain no longer than the act of possession.
+                Cicero illustrates this happily by the similitude of a theatre.
+                'Quemadmodum theatrum, cum commune sit, recte tamen dici potest
+                ejus esse cum locum quem quisque occuparit.' The general
+                conclusions which I deduce are these:
                 <br />
                 <div
                   style={{
@@ -711,12 +734,14 @@ class App extends React.Component {
             </span>
             {space}(supplier of information) application back this week so I can
             alpha test transaction fee stood banking (vau.money), still on the
-            backs of MasterCard and Digital Ocean (hibit.cc) though. Whatever is
-            intractable is not extractable, as a pyramid scheme non-ponzi would
-            otherwise be. Equal (operational) measure (and game-made risk) is
-            Hadith, I press. would like everyones’ thoughts on pipe and sunnah
-            on industrial diversity in capital return, I would hope to find. A
-            sense of random sampling in a jury, if you will
+            {space}
+            <a href="https://marginalism.uk/cops">backs</a>
+            {space}of MasterCard and Digital Ocean (hibit.cc) though. Whatever
+            is intractable is not extractable, as a pyramid scheme non-ponzi
+            would otherwise be. Equal (operational) measure (and game-made risk)
+            is Hadith, I press. would like everyones’ thoughts on pipe and
+            sunnah on industrial diversity in capital return, I would hope to
+            find. A sense of random sampling in a jury, if you will
           </div>
           Material duty to the public good stakeholder stewardship.
           <div
