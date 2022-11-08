@@ -732,8 +732,15 @@ class App extends React.Component {
             >
               charter
             </span>
-            {space}(supplier of information) application back this week so I can
-            alpha test transaction fee stood banking (vau.money), still on the
+            {space}(supplier
+            {space /**local parties fetter, audit node address data */}
+            <a href="https://www.banknet.gov/register/default.aspx">
+              of information
+            </a>
+            ) application back{space}
+            <a href="https://www.law.cornell.edu/cfr/text/12/5.20">this week</a>
+            {space}so I can alpha test transaction fee stood banking
+            (vau.money), still on the
             {space}
             <a href="https://marginalism.uk/cops">backs</a>
             {space}of MasterCard and Digital Ocean (hibit.cc) though. Whatever
