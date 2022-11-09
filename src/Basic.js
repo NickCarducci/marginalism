@@ -641,6 +641,10 @@ export default class Basic extends React.Component {
           <h2>
             How many apple pies? Every apple pie is getting more expensive{" "}
           </h2>
+          Geometric disutility production factors' possibility is twice
+          deflationary and diminishing otherwise (one at a time)
+          <br />
+          <br />
           Isn't marginalism the thread of the individual? The geometric
           proportional mean is aside from arithmetic but for whole pairs between
           units instead of one type. The cardinal slope matrix inside ordinal
