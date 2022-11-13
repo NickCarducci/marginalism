@@ -761,6 +761,63 @@ class App extends React.Component {
             Slavery is the status or condition of a person over whom any or all
             of the powers attaching to the right of ownership are exercised.
           </div>
+          <br />
+          r/Anarchy101 •Posted by u/Snipercow78:{space}
+          <i>A Marxist argument towards anarchism</i>
+          {space}Hi, I was wondering about how you would respond to certain
+          Marxist arguments against anarchy Such as this one. Fredrick Engels
+          argues against Anarchism on the basis that authority is needed to
+          carry out a revolution against capitalism and the organization of
+          society. How would an anarchist respond to this?
+          <br />
+          <br />
+          Sup gang. Anarchy is
+          {space}
+          <a href="https://theanarchistlibrary.org/library/william-gillis-anti-engels-or-anti-anti-duhring-aktion?v=1636526185#toc9">
+            economic
+          </a>
+          . *As technology.*
+          <br />
+          {/**"experimental not spiritual of atomic theory", "indigeonous ways of knowing" */}
+          <div
+            style={{
+              borderLeft: "2px solid",
+              padding: "10px"
+            }}
+          >
+            Combatting power requires combating dishonesty and various
+            impediments to the sharing, flow, and processing of information more
+            generally.
+          </div>
+          <br />
+          <div
+            style={{
+              borderLeft: "2px solid",
+              padding: "10px"
+            }}
+          >
+            Any specific individual anti-abuser partisan might get crushed,
+            jumped, or run out, but the overall strategy wins.{space}
+            <i>
+              Sacrificing for one another can grow from a few individuals – or
+              even one – into a hegemonic strategy.
+            </i>
+          </div>
+          <br />
+          Founders embrace modicum agitation{space}
+          <i>
+            nearly at all{space}
+            <b>socially-borne</b>
+            {space}
+            costs to themselves
+          </i>
+          . This doesn’t mean the state is required to tamper this calamity,
+          because{space}
+          <a href="https://www.academia.edu/43983270/Quiescence_of_American_Citizenry_over_Political_Inequality_Rebellion_by_the_Internet">
+            we have the internet
+          </a>
+          . Surely capitalism as contractual tension, investment labor shorting
+          housing labor is not the only social-arc to assuage.
         </div>
       </div>
     );
