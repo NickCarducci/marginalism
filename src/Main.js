@@ -847,6 +847,148 @@ class App extends React.Component {
           growth at no deflation nor equality commensurate gain), he is not
           commie.{space}
           <i>He is a fish!</i>
+          <br />
+          <br />
+          This tort is best met with a quote from Proudhon (1841) about
+          r/sayists (1821)
+          <br />
+          <div
+            style={{
+              borderLeft: "2px solid",
+              padding: "10px"
+            }}
+          >
+            Who is entitled to the rent of the land? The producer of the land,
+            without doubt.{space}
+            <a href="https://theanarchistlibrary.org/library/pierre-joseph-proudhon-what-is-property-an-inquiry-into-the-principle-of-right-and-of-governmen">
+              Who made the land? God. Then, proprietor, retire!
+            </a>
+          </div>
+          <br />
+          <div
+            style={{
+              borderLeft: "2px solid",
+              padding: "10px"
+            }}
+          >
+            I’m unsure what Proudhon was actually saying here,{space}
+            <i>
+              but{space}
+              <a href="https://www.marxists.org/archive/marx/works/1847/poverty-philosophy/ch02d.htm">
+                taken out of context
+              </a>
+              {space}
+              at least
+            </i>
+            , I agree with Marx (as usual):
+          </div>
+          <br />
+          <div
+            style={{
+              borderLeft: "2px solid",
+              padding: "10px"
+            }}
+          >
+            According to M. Proudhon, “improvement in the use of the land” – a
+            consequence “of the perfecting of industry” – causes the continual
+            rise in rent. On the contrary, this improvement causes its periodic
+            fall.
+          </div>
+          <br />
+          Curiously, landed property describes this phenomenon.
+          <br />
+          <div
+            style={{
+              borderLeft: "2px solid",
+              padding: "10px"
+            }}
+          >
+            It is necessary to distinguish carefully the complete right of
+            {space}
+            <a href="https://mises.org/library/treatise-political-economy">
+              property
+            </a>
+            , which is founded on labour, from the transient right of possession
+            which is acquired by mere priority of occupancy; thus, before the
+            appropriation of land, if any individual had occupied a particular
+            spot, for repose or shade, it would have been unjust to deprive him
+            of possession of it.
+            <br />
+            <br />A man who cultivates his own garden at his own expense, is at
+            once the possessor of land, capital, and industry, and exclusively
+            enjoys the profits of proprietor/capitalist/laborer. …Indeed, the
+            tenant himself may improve the ground at his own expense; but he
+            only derives the profit from this capital for the duration of his
+            lease, with the expiry of which it remains with the proprietor of
+            the land. (Jean-Baptiste Say, A Treatise on Political Economy, 1821)
+          </div>
+          <br />
+          Say likely got this from Rousseau, as property right ethics so
+          translate for substitutive supply:
+          <br />
+          <div
+            style={{
+              borderLeft: "2px solid",
+              padding: "10px"
+            }}
+          >
+            Is it to be enough to set foot on a plot of common ground, in order
+            to be able to call yourself at once the master of it? Is it to be
+            enough that a man has the strength to expel others{space}
+            <a href="https://www.marxists.org/reference/subject/economics/rousseau/social-contract/ch01.htm#009">
+              for a moment, in order
+            </a>
+            {space}
+            to establish his right to prevent them from ever returning? How can
+            a man or a people seize an immense territory and keep it from the
+            rest of the world except by a punishable usurpation, since all
+            others are being robbed, by such an act, of the place of habitation
+            and the means of subsistence which nature gave them in common? (Jean
+            Jacques Rousseau, The Social Contract, 1762)
+          </div>
+          <br />
+          All in all, Marxists believe the disutility of deflationary investment
+          and labor capital is crowded out by social capital, and{space}
+          <i>
+            the capitalist cycle makes non-deflationary jobs and long term
+            layoffs in seriatim
+          </i>
+          .
+          <br />
+          <br />
+          Please show your professor bankingisnot.biz for more.
+          <br />
+          <br />
+          Are you a node, or are you a{space}
+          <i>
+            <b>local</b>
+            {space}storage
+          </i>
+          {space}node? Here’s my favorite adjoiner in the second link:
+          <div
+            style={{
+              borderLeft: "2px solid",
+              padding: "10px"
+            }}
+          >
+            Anarchists frustrated by the contradictions of democratic discourse
+            have sometimes withdrawn to organize themselves according to
+            preexisting affinity alone. Yet segregation breeds stagnation and
+            fractiousness. It is better to organize on the basis of our
+            conditions and needs so we come into contact with all the others who
+            share them. Only when we understand ourselves as nodes within
+            dynamic collectivities, rather than discrete entities possessed of
+            static interests, can we make sense of the rapid metamorphoses that
+            people undergo in the course of experiences like the Occupy
+            movement—and the tremendous power of the encounter to transform us
+            if we open ourselves to it. (CrimethInc.,{space}
+            <i>
+              <a href="https://theanarchistlibrary.org/library/crimethinc-from-democracy-to-freedom">
+                From Democracy To Freedom
+              </a>
+            </i>
+            , 2016)
+          </div>
         </div>
       </div>
     );
