@@ -957,14 +957,73 @@ class App extends React.Component {
           <br />
           <br />
           Please show your professor bankingisnot.biz for more.
+          <h2>Criticisms of Occupy Wall Street?</h2>
+          {/* 
+          u/acebush1
+          tl;dr: Are there anarchist critiques of the Occupy movement out there?
           <br />
           <br />
+          I’m new to anarchism and leftism in general and as I’ve started
+          getting involved in my local community I’ve begun to debate anarchism
+          with some MLs who are seasoned organizers. Their aversion to anarchism
+          stems from their experience in the Occupy movement, and problems it
+          had which they believe were directly tied to its anarchist roots.
+          <br />
+          <br />
+          They cited things like an inability to make decisions and get things
+          done, as well as a kind of “hidden” hierarchy whereby some individuals
+          were able to wield inordinate amounts of influence by networking and
+          using preexisting connections, and also the rules and procedures
+          happened to benefit some people more than others. These people were
+          effectively able to set the agenda and shut out anyone who disagreed
+          with them from the decision making process.
+          <br />
+          <br />
+          They said that local unions were barred from participating because
+          they were organized hierarchically. This especially pissed them off
+          because those unions were primarily made up of women of color, and the
+          influential Occupy organizers were primarily affluent white people.
+          <br />
+          <br />
+          They also cited weird dogmatic rules like no megaphones being allowed
+          because amplification = hierarchy or something. They said that when
+          the police came to clear out the encampment there was no ability to
+          coordinate a response because there wasn’t time to call a general
+          assembly.
+          <br />
+          <br />
+          Basically, from the ML’s perspective, all these anarchist principles
+          served to do was obfuscate hierarchy instead of eliminating it, and
+          without clear “leaders” there was no one to criticize and no way to
+          address problems. They came away with a view of anarchism as being an
+          ideology for arrogant white middle class people who want to condescend
+          to other leftists without actually committing to revolution.
+          <br />
+          <br />
+          I don’t think I agree that these things are necessarily endemic to
+          anarchism, but I wouldn’t be surprised if the Occupy movement did have
+          these problems as a result of arrogant white people trying to tell
+          everyone what to do.
+          <br />
+          <br />
+          Are there anarchist critiques of the Occupy movement that can give a
+          different perspective on these problems?
+          <br />
+          (Also is this the right sub for this?)
+          <br />
+          <br />*/}
           Are you a node, or are you a{space}
           <i>
             <b>local</b>
             {space}storage
           </i>
-          {space}node? Here’s my favorite adjoiner in the second link:
+          {space}node? Here’s my favorite adjoiner in{space}
+          <i>
+            <a href="https://theanarchistlibrary.org/library/crimethinc-from-democracy-to-freedom">
+              From Democracy To Freedom
+            </a>
+          </i>
+          , 2016 by CrimethInc.:
           <div
             style={{
               borderLeft: "2px solid",
@@ -981,14 +1040,117 @@ class App extends React.Component {
             static interests, can we make sense of the rapid metamorphoses that
             people undergo in the course of experiences like the Occupy
             movement—and the tremendous power of the encounter to transform us
-            if we open ourselves to it. (CrimethInc.,{space}
+            if we open ourselves to it.
+            {/* (CrimethInc.,{space}
             <i>
               <a href="https://theanarchistlibrary.org/library/crimethinc-from-democracy-to-freedom">
                 From Democracy To Freedom
               </a>
             </i>
-            , 2016)
+            , 2016)*/}
           </div>
+          <br />
+          With deficit spending, isn’t the maximum tax receipts when the tax
+          rate is zero?{space}
+          <i>
+            Why are you so angry about deficits obviously causing higher profits
+          </i>
+          ,{space}
+          <span style={{ textDecoration: "line-through" }}>Arthur Laffer</span>
+          {space}Mike Jenkins?
+          <br />
+          <br />
+          But it should be drawn with its maximum at the y-intercept of x=0 in
+          terms of tax rate to most elastic part of y, tax receipts. *The public
+          deficit, either QE or “private investment”, begets investment labor
+          shorting housing labor. We call this crowding out, but I can’t find
+          where David Ricardo even mentions the words equivalence nor{space}
+          <a href="https://en.wikipedia.org/wiki/Crowding_out_(economics)">
+            crowding out
+          </a>
+          .
+          <br />
+          <a href="https://www.quora.com/unanswered/Isn-t-shorting-a-rewording-of-David-Ricardo-s-crowding-out-Where-exactly-did-Ricardian-equivalence-and-or-crowding-out-get-mentioned-in-his-writings">
+            <i>
+              Isn’t shorting a rewording of David Ricardo’s crowding out? Where
+              exactly did Ricardian equivalence and/or crowding out get
+              mentioned in his writings?
+            </i>
+          </a>
+          <br />
+          <br />
+          Has anybody every attempted to write down the equation for the Laffer
+          Curve, based on more fundamental principles of Macro- or
+          Micro-Economics? If so, who was it, and where can I read up on the
+          current state of the art?
+          <br />
+          <br />
+          The Laffer Curve{space}
+          <b
+            style={{
+              backgroundColor: "grey",
+              color: "white"
+            }}
+          >
+            is a fundamental principle. However, it is not always fundamental
+            and does more harm than{space}
+            <a href="https://leisuretoprefer.com">good</a>
+          </b>
+          ,{space}
+          <i>
+            the deficit generates the tax receipts of the Laffer Curve, and
+            otherwise fundamentally the tax rate has no bearing on the revenue
+            if the value added of the government as a share of gross product is
+            normal. Fundamentally, the tax revenue is maximized{space}
+            <b
+              style={{
+                backgroundColor: "grey",
+                color: "white"
+              }}
+            >
+              at a certain rate from private production
+            </b>
+            .
+          </i>
+          <br />
+          The level of government production is not at issue but the types are.
+          Moreover, the government maintains{space}
+          <i>
+            an increasing growth point-benefit at-market utility-price by{space}
+            <b
+              style={{
+                backgroundColor: "grey",
+                color: "white"
+              }}
+            >
+              the deficit
+            </b>
+            {space}and its{space}
+            <b
+              style={{
+                backgroundColor: "grey",
+                color: "white"
+              }}
+            >
+              loitering/new money from private investment in the treasury
+              debit/QE
+            </b>
+          </i>
+          . To put government spending against the rate of taxation with no
+          bearing of normality of taxation for the free rider immutable
+          plaintiff durable truncated wholesale tax nor deficit spending
+          describes revenue as a price making venture as opposed to a
+          product-making consumer complementary and total budget constraints
+          instead.{space}
+          <a href="https://www.quora.com/unanswered/Why-do-the-Census-poverty-measures-impute-mortgages-as-costs-while-the-Bureau-of-Labor-Statistics-impute-rents-as-product">
+            Why do the Census poverty measures impute mortgages as costs while
+            the Bureau of Labor Statistics impute rents as product?
+          </a>
+          {space}•{space}
+          <a href="https://www.quora.com/Doesn-t-the-monetarist-envisage-the-day-of-perishable-circulation-being-duty-free">
+            Doesn’t the monetarist envisage the day of perishable circulation
+            being duty-free?
+          </a>
         </div>
       </div>
     );
