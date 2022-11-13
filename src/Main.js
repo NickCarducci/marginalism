@@ -818,6 +818,35 @@ class App extends React.Component {
           </a>
           . Surely capitalism as contractual tension, investment labor shorting
           housing labor is not the only social-arc to assuage.
+          <hr />
+          I’m not sure where this started from, potentially with 2020 *young*
+          (?) republicans no like state repressive power on masks{space}
+          <a href="https://reddit.com/r/2020haters">and the like</a>.{space}
+          <a href="https://www.quora.com/unanswered/What-s-the-history-on-the-Grand-Old-Party-and-the-Communists-in-America">
+            Anyone know the history on the Grand Old Party and the Communists in
+            America?
+          </a>
+          . Anyway,{space}
+          <i>this is a pattern:</i>
+          {space}
+          <a href="https://draintheswamp.quora.com/Wouldn-t-you-prefer-to-save-money-over-America">
+            Save
+          </a>
+          {space}
+          America =={space}
+          <a href="https://revenuedata.doi.gov">Revenue Data</a>
+          {space}Department of the
+          {space}
+          <a href="https://draintheswamp.quora.com/Wouldn-t-abolishing-the-Bureau-of-Land-Management-actually-save-money-in-national-accounting-terms-even-though-it-makes">
+            Interior
+          </a>
+          {space}
+          Bureau of Land Management UT NM WY{space}
+          <a href="https://2024nj.com/oil">leases</a>. This is “why” we have QE.
+          So unless Trump wants to stop this profit (the cause of real economic
+          growth at no deflation nor equality commensurate gain), he is not
+          commie.{space}
+          <i>He is a fish!</i>
         </div>
       </div>
     );
