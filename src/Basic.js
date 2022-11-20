@@ -170,7 +170,12 @@ export default class Basic extends React.Component {
               major party?
             </i>
             {space}Isn’t the marginal benefit rate of substitution for leisure
-            generally deflationary as well as individually useful?
+            generally deflationary as well as individually useful?{space}
+            <span style={{ color: "navy" }}>
+              Isn’t invested labor for the rich always non-deflationary
+              marginally and inflationary for everyone else in total? How can a
+              rich laborer be deflationary and useful?
+            </span>
           </h4>
           That is to say, any particular machine may yield an income which is of
           the nature of a rent, and which is sometimes called a Rent; though on
@@ -890,3 +895,4 @@ export default class Basic extends React.Component {
       );
   }
 }
+
