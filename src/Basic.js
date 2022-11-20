@@ -158,8 +158,35 @@ export default class Basic extends React.Component {
           the whole, there seems to be some advantage in calling it a
           Quasi-rent. But we cannot properly speak of the interest yielded by a
           machine. If we use the term "interest" at all, it must be in relation
-          not to the machine itself, but to its money value.
+          not to the machine itself, but to its money value. (Alfred Marshall,
+          {space}
+          <i>
+            Principles of Economics by Alfred Marshall, Book Two: Some
+            Fundamental Notions Chapter 4, Income, Capital
+          </i>
+          , 1890)
           <br />
+          <div
+            style={{ padding: "10px", backgroundColor: "rgb(172, 235, 252)" }}
+          >
+            <h4 style={{ margin: "4px 0px" }}>Make products not prices</h4>
+            But when the division of labour first began to take place, this
+            power of exchanging must frequently have been very much clogged and
+            embarrassed in its operations. One man, we shall suppose, has more
+            of a certain commodity than he himself has occasion for, while
+            another has less [and is the price-maker before the market is made].
+            The former consequently would be glad to dispose of, and the latter
+            to purchase, a part of this superfluity. But if this latter should
+            chance to have nothing that the former stands in need of, no
+            exchange can be made between them. (Adam Smith,{space}
+            <i>
+              Wealth of Nations, Book I: On the Causes of Improvement in the
+              Productive Powers. On Labour, and on the Order According to Which
+              its' Produce is Naturally Distributed Among the Different Ranks of
+              the People: On the Origin and Use of Money
+            </i>
+            , 1776)
+          </div>
           <br />
           Monetary theory has no ideological content. It deals with a scientific
           question—how a particular social contrivance works. It may surprise
