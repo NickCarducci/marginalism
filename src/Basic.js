@@ -169,6 +169,8 @@ export default class Basic extends React.Component {
               Isn’t your vote just as significant with a third party as with a
               major party?
             </i>
+            {space}Isn’t the marginal benefit rate of substitution for leisure
+            generally deflationary as well as individually useful?
           </h4>
           That is to say, any particular machine may yield an income which is of
           the nature of a rent, and which is sometimes called a Rent; though on
