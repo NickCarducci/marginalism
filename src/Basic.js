@@ -153,6 +153,23 @@ export default class Basic extends React.Component {
           >
             back
           </div>
+          <h4>
+            Why would a rich country have better services?{space}
+            <span style={{ color: "grey" }}>
+              Doesn’t the marginal benefit rate of substitution for leisure
+              occur at the NAIRU maxima? Doesn’t any more unemployment only
+              inflate acceleratingly with unnatural social capital and otherwise
+              individual use is marginal?
+            </span>
+            {space}
+            Isn’t the non-accelerating inflation rate of unemployment where the
+            marginal benefit rate of substitution for leisure is complementary
+            to demand?{space}
+            <i>
+              Isn’t your vote just as significant with a third party as with a
+              major party?
+            </i>
+          </h4>
           That is to say, any particular machine may yield an income which is of
           the nature of a rent, and which is sometimes called a Rent; though on
           the whole, there seems to be some advantage in calling it a
