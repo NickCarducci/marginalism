@@ -558,6 +558,71 @@ export default class Basic extends React.Component {
             of practical reflection on the con­ ditions of our existence as men
             of knowledge.
           </h4>
+          Nietzsche was interested in the value of life not the non-immoral
+          morale impediments. He (Nietzsche, as a nothing) considered anarchists
+          as destructive to value.
+          <div
+            style={{ padding: "10px", backgroundColor: "rgb(252, 195, 179)" }}
+          >
+            No bitterness or empty hate dictated his vituperations against
+            existing values and against the dogmas of his parents and
+            forefathers. He knew too well what these things meant to the
+            millions who profess them, to approach the task of uprooting them
+            with levity or even with haste.{space}
+            <a href="https://www.gutenberg.org/files/1998/1998-h/1998-h.htm">
+              Those who hastily class him with the anarchists
+            </a>
+            {space}(or the Progressivists of the last century) fail to
+            understand the high esteem in which he always held both law and
+            discipline. In verse 41 of this most decisive discourse he truly
+            explains his position when he says: “...he who hath to be a creator
+            in good and evil—verily he hath first to be a destroyer, and break
+            values in pieces.” This teaching in regard to self-control is
+            evidence enough of his reverence for law. (Friedrich Nietzsche,
+            {space}
+            <i>
+              Thus Spake Zarathustra "A Book for All and None", Chapter XXXIV:
+              Self-Surpassing, Chapter LVI: Old and New Tables. Par. 2.
+            </i>
+            , 1883-92)
+          </div>
+          I wish I could find a compliment as he does sometimes in critiques,
+          lets just look for his mentions of usufructuary and or responsibility:
+          <div
+            style={{ padding: "10px", backgroundColor: "rgb(252, 195, 179)" }}
+          >
+            No one doubted that all the antecedentia of an action were to be
+            sought in consciousness, and could be discovered there—as
+            “motive”—if only they were sought. Otherwise we should not be free
+            to perform them, we should{space}
+            <a href="https://www.gutenberg.org/cache/epub/58025/pg58025-images.html">
+              not
+            </a>
+            {space}have been responsible for them. (Friedrich Nietzsche,{space}
+            <i>The Twilight of the Idols: The Four Great Errors: 3</i>, 1911)
+          </div>
+          Anarchy means there is no hierarchy because of the individual use of
+          the usufructuary, and technological based margin gains with steady
+          prices will not come without action against the state without a test
+          of right and where compulsory will voids all liberal rewards of labor
+          and trade.
+          <div
+            style={{ padding: "10px", backgroundColor: "rgb(252, 195, 179)" }}
+          >
+            <a href="https://theanarchistlibrary.org/library/pierre-joseph-proudhon-what-is-property-an-inquiry-into-the-principle-of-right-and-of-governmen">
+              Competition
+            </a>
+            , sometimes called liberty of trade, —{space}
+            <a href="https://bankingisnot.biz">in a word</a>, property in
+            exchange, — will be for a long time the basis of our commercial
+            legislation; which, from the economical point of view, embraces all
+            civil laws and all government. (Pierre-Joseph Proudhon,{space}
+            <i>
+              What is Property? An Inquiry into the Principle of Right and of
+              Government
+            </i>
+            , 1840)
+          </div>
         </div>
       );
     } else if (this.state.onVaumoney) {
@@ -895,4 +960,3 @@ export default class Basic extends React.Component {
       );
   }
 }
-
