@@ -195,6 +195,22 @@ export default class Basic extends React.Component {
               with the job being service work?
             </i>
           </h4>
+          <Cable
+            style={{ width: "auto", height: "500px" }}
+            onError={handleScollImgError}
+            //img={true}
+            src={
+              this.state.noyout
+                ? ""
+                : "https://www.youtube.com/embed/dpAGack3BrY"
+            }
+            float={"right"}
+            title="https://youtu.be/dpAGack3BrY"
+            scrolling={this.state.scrolling}
+            fwd={this["scrollImg" + scrollnum()]}
+            scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+            scrollTop={this.state.scrollTop}
+          />
           <h4>
             Ay caramba,{space}
             <a href="https://huddleup.substack.com/p/how-do-professional-sports-leagues">
