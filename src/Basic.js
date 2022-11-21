@@ -176,6 +176,14 @@ export default class Basic extends React.Component {
               marginally and inflationary for everyone else in total? How can a
               rich laborer be deflationary and useful?
             </span>
+            {space}Doesn’t an accelerated inflation rate of unemployment make a
+            potential accelerating deflation rate of employment?{space}
+            <i style={{ color: "orange" }}>
+              Isn’t a non-accelerating deflation rate of employment absolutely
+              the non-accelerating inflation rate of unemployment? Aren’t the
+              accelerations over realized productivity positively correlated
+              with the job being service work?
+            </i>
           </h4>
           That is to say, any particular machine may yield an income which is of
           the nature of a rent, and which is sometimes called a Rent; though on
