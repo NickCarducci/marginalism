@@ -152,7 +152,17 @@ export default class Basic extends React.Component {
             onClick={() => this.setState({ onFactors: false })}
           >
             back
+            {/**i think satan is certain is anything (believe if anything) */}
           </div>
+          I'll be{space}
+          <a href="https//commie.dev/mod">anything</a>
+          {space}you want me{space}
+          <a href="https://jester.com.co">to be</a>.
+          <h3>
+            u/WinPillSeeker anarchy (minarchy) is as much utopian as
+            communism... libertarians are{space}
+            <a href="https://thumbprint.quora.com">minarchists</a>...
+          </h3>
           <h4>
             Why would a rich country have better services?{space}
             <span style={{ color: "grey" }}>
