@@ -185,6 +185,12 @@ export default class Basic extends React.Component {
               with the job being service work?
             </i>
           </h4>
+          <h4>
+            Ay caramba,{space}
+            <a href="https://huddleup.substack.com/p/how-do-professional-sports-leagues">
+              Desportes
+            </a>
+          </h4>
           That is to say, any particular machine may yield an income which is of
           the nature of a rent, and which is sometimes called a Rent; though on
           the whole, there seems to be some advantage in calling it a
