@@ -163,6 +163,24 @@ export default class Basic extends React.Component {
             communism... libertarians are{space}
             <a href="https://thumbprint.quora.com">minarchists</a>...
           </h3>
+          <a href="https://www.quora.com/Why-does-education-tuition-have-inelastic-demand/answer/Nick-Carducci">
+            <Cable
+              style={{ width: "100%", maxWidth: "50%" }}
+              onError={handleScollImgError}
+              img={true}
+              src={
+                this.state.noyout
+                  ? ""
+                  : "https://www.dropbox.com/s/q915lw19ig7q96d/price%20contraints%20with%20a%20rational%20and%20or%20coerced%20supply%20and%20a%20nominal%20cardinal%20price%20%282%29.png?raw=1"
+              }
+              float={"left"}
+              title=""
+              scrolling={this.state.scrolling}
+              fwd={this["scrollImg" + scrollnum()]}
+              scrollTopAndHeight={this.state.scrollTop + window.innerHeight}
+              scrollTop={this.state.scrollTop}
+            />
+          </a>
           <h4>
             Why would a rich country have better services?{space}
             <span style={{ color: "grey" }}>
