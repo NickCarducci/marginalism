@@ -193,9 +193,13 @@ export default class Basic extends React.Component {
             Isn’t the non-accelerating inflation rate of unemployment where the
             marginal benefit rate of substitution for leisure is complementary
             to demand?{space}
-            <i>
+            <i style={{ color: "cadetblue" }}>
               Isn’t your vote just as significant with a third party as with a
-              major party?
+              major party? How is a third party vote thrown away when the
+              two-party voters are just as significant, statistically? Isn’t
+              voting third party throwing your vote away only if everyone thinks
+              that? Does every two-party voter break the tie between the
+              parties?
             </i>
             {space}Isn’t the marginal benefit rate of substitution for leisure
             generally deflationary as well as individually useful?{space}
