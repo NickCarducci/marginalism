@@ -158,6 +158,9 @@ export default class Basic extends React.Component {
           <a href="https//commie.dev/mod">anything</a>
           {space}you want me{space}
           <a href="https://jester.com.co">to be</a>.
+          <h4 style={{ margin: "4px 0px" }}>Marginal Education</h4>
+          Isn’t poverty by expense implied by non-deflationary income growth
+          instead of economical outcome from time and investment from shrink?
           <h3>
             u/WinPillSeeker anarchy (minarchy) is as much utopian as
             communism... libertarians are{space}
@@ -674,7 +677,9 @@ export default class Basic extends React.Component {
             <a href="https://theanarchistlibrary.org/library/pierre-joseph-proudhon-what-is-property-an-inquiry-into-the-principle-of-right-and-of-governmen">
               Competition
             </a>
-            , sometimes called liberty of trade, —{space}
+            , sometimes called{space}
+            <i>liberty of trade</i>
+            {space}[Ricardo], —{space}
             <a href="https://bankingisnot.biz">in a word</a>, property in
             exchange, — will be for a long time the basis of our commercial
             legislation; which, from the economical point of view, embraces all
@@ -685,6 +690,10 @@ export default class Basic extends React.Component {
             </i>
             , 1840)
           </div>
+          <a href="https://comlib.quora.com/What-is-an-anarchist-libertarian-1">
+            Doesn't existentialism accentuate life for values from morals
+          </a>
+          ?
         </div>
       );
     } else if (this.state.onVaumoney) {
