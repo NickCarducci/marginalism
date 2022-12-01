@@ -694,6 +694,43 @@ export default class Basic extends React.Component {
             Doesn't existentialism accentuate life for values from morals
           </a>
           ?
+          <div
+            style={{ padding: "10px", backgroundColor: "rgb(252, 255, 179)" }}
+          >
+            Their reward is forgiveness from their Lord and Gardens under which
+            rivers flow, staying there forever. How excellent is the reward for
+            those who work ˹righteousness˺! (3:136)
+            <br />
+            <br />
+            Whoever of them were to say, “I am a god besides Him,” they would be
+            rewarded with Hell by Us. This is how We reward the wrongdoers.
+            (21:29)
+          </div>
+          <i style={{ color: "cadetblue" }}>
+            My two cent benefit make reflecting this is why the shahada is there
+            is No G-d but Allah and Muhammad is His prophet (pbuh). So then the
+            {space}
+            <a href="https://reddit.com/r/hadithes">purpose</a>
+            {space}I will leave to other hopeful scholars. I don’t want to
+            {space}
+            <a href="https://reddit.com/r/islamicbanks">abrogate</a>
+            {space}too much. It’s just reasonable for His intent so then what
+            else.
+          </i>
+          {space}
+          <b>
+            I do believe Greeks has an idea of the pantheon as a testing ground
+            for policy
+          </b>
+          , and we know…
+          {space}
+          <a href="https://truncatedwholesaletax.com">wait a minute</a>:
+          <div
+            style={{ padding: "10px", backgroundColor: "rgb(252, 255, 179)" }}
+          >
+            Do you ˹O Prophet˺ not see that We have sent the devils against the
+            disbelievers, constantly inciting them? (19:83)
+          </div>
         </div>
       );
     } else if (this.state.onVaumoney) {
