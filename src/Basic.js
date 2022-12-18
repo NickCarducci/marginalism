@@ -154,6 +154,12 @@ export default class Basic extends React.Component {
             back
             {/**i think satan is certain is anything (believe if anything) */}
           </div>
+          Is the loss of labor outcomes worth the equalization of welfare?
+          Doesn't income equalization include poverty disparity narrowing and
+          not necessarily persistent currency capital nor durable good,
+          equipment, and in-kind or market IP stock equalization?
+          <br />
+          <br />
           I'll be{space}
           <a href="https//commie.dev/mod">anything</a>
           {space}you want me{space}
