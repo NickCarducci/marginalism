@@ -160,6 +160,19 @@ export default class Basic extends React.Component {
           equipment, and in-kind or market IP stock equalization?
           <br />
           <br />
+          Is intractable or extractable unemployment due to loaned fiat debt
+          money lending lease investment? Doesn't persistent either treasury per
+          currency or stock growth cause either Kuznets curve income or
+          deflationary inventory-lag equalization?
+          <br />
+          <br />
+          Is the{space}
+          <a href="http://magnate.company">
+            government holding back technology with grants
+          </a>{" "}
+          to already rich entrepreneurs to cause productivity growth?
+          <br />
+          <br />
           I'll be{space}
           <a href="https//commie.dev/mod">anything</a>
           {space}you want me{space}
