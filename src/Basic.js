@@ -384,7 +384,63 @@ export default class Basic extends React.Component {
             </i>
             . Miserable indeed was the price for which they sold their souls, if
             only they knew! (2:102)
+            <br />
+            <br />
+            The angels said, “O Lot! We are the messengers of your Lord. They
+            will never reach you. So travel with your family in the dark of
+            night, and do not let any of you look back, except your wife. She
+            will certainly suffer the fate of the others. Their appointed time
+            is the morning. Is the morning not near?” (11:81)
+            <br />
+            <br />
+            And ˹remember˺ Lot, when he rebuked ˹the men of˺ his people,{space}
+            <i>
+              “Do you commit that shameful deed while you can see ˹one another˺?
+              {space}
+              <b>
+                Do you really lust after men instead of women? In fact, you are
+                ˹only˺ a people acting ignorantly.”
+              </b>
+            </i>
+            {space}
+            But his people’s only response was to say, “Expel Lot’s followers
+            from your land! They are a people who wish to remain chaste!”
+            (27:54-56)
+            <br />
+            <br />
+            {/*This sounds like public adultery.*/}
+            Do not{space}
+            <i>
+              <b>go near</b>
+              {space}adultery. It is truly a shameful deed
+            </i>
+            {space}and an evil way. (17:32)
+            <br />
+            <br />
+            {/*Are sins shameful or are public shameful acts sinful?*/}
+            Give women ˹you wed˺ their due dowries graciously. But if they waive
+            some of it willingly, then you may enjoy it freely with a clear
+            conscience. (4:4)
+            <br />
+            <br />
+            And ˹remember˺ when Lot rebuked ˹the men of˺ his people:{space}
+            <i>
+              “You certainly commit a shameful deed that no man has ever done
+              before you.{space}
+              <b>
+                Do you really lust after ˹other˺ men, abuse the travellers, and
+                practice immorality ˹openly˺ in your gatherings?”
+              </b>
+            </i>
+            {space}His people’s only response was to say ˹mockingly˺: “Bring
+            Allah’s punishment upon us, if what you say is true.” (29:28-29)
           </div>
+          <a href="https://vau.money">
+            Is the U.S. government's deficit spending growing and usual to begin
+            with because non-voters aren't counted to reconcile budgeting?
+          </a>
+          <br />
+          <br />
           A nihilistic religion [like Christianity], sprung from and appropriate
           to a people grown old and tame, having outlived all strong
           instincts—transferred step by step to another milieu, at length
