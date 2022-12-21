@@ -435,6 +435,58 @@ export default class Basic extends React.Component {
             {space}His people’s only response was to say ˹mockingly˺: “Bring
             Allah’s punishment upon us, if what you say is true.” (29:28-29)
           </div>
+          <h3>
+            "Capitalism isn't{space}
+            <a href="https://vau.money">coersively</a>
+            {space}hiearchal."
+          </h3>
+          The problem is that capitalism was invented by Proudhon and capital by
+          Smith. Ricardo, Malthus, and mostly J.B. say described{space}
+          <span style={{ textDecoration: "line-through" }}>capitalists</span>
+          {space}
+          proprietors as those who pay for ground rent (Marx) and usufruct
+          (Proudhon). Everyone thinks coercion is a disutility; especially
+          forced investment without everyone having an E-Manifest FedCash
+          account, to begin with. Isn’t debt a prisoners’ dilemma on personal
+          essentials or general income? Isn’t duress void in contract law?
+          Hierarchy can be rational when prices are discrimination only when
+          profits{space}
+          <b>
+            <i>don't</i>
+          </b>
+          {space}exist to afford a market out of balance of ordinary revenue to
+          cost, and maximize use to benefit. (edit: technically with academic
+          works,{space}
+          <b>capital is durable</b>
+          {space}but affords one their revenue, and shared stock is the
+          extension of this stock over others through an outright purchase
+          {space}
+          <i>
+            otherwise, now I say a third party donee beneficiary recallable and
+            restitution-able victim mentality and right
+          </i>
+          ;{space}
+          <b>property</b>
+          {space}is a deed explicitly because it isn't perishable{space}
+          <b>nor destructible</b>
+          {space}- capital has titles. Labor usually doesn't).
+          <h3>Society-capital (destination?)</h3>
+          <div
+            style={{ padding: "10px", backgroundColor: "rgb(252, 255, 179)" }}
+          >
+            We will certainly test you with a touch of fear and famine and loss
+            of{space}
+            <i>property, life, and crops</i>. Give good news to those who
+            patiently endure— (2:155) O  my people! Give full measure and weigh
+            with justice.{space}
+            <i>Do not defraud people of their property</i>, nor go about
+            spreading corruption in the land.(11:85) Then if you feel they are
+            capable of sound judgment, return their wealth to them. And do not
+            consume it wastefully and hastily before they grow up ˹to demand
+            it˺. If the guardian is well-off, they should not take compensation;
+            but if the guardian is poor, let them take a reasonable provision.
+            (4:6)
+          </div>
           <a href="https://vau.money">
             Is the U.S. government's deficit spending growing and usual to begin
             with because non-voters aren't counted to reconcile budgeting?
