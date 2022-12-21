@@ -363,6 +363,27 @@ export default class Basic extends React.Component {
             believers to draw their cloaks close round them (when they go
             abroad). That will be better, so that they may be recognised and not
             annoyed. Allah is ever Forgiving, Merciful. (Quran 33:59).
+            <br />
+            <br />
+            The two angels never taught anyone without saying,{space}
+            <i>
+              ”We are only a test ˹for you˺, so do not abandon ˹your˺ faith.”
+              Yet people
+              {space}
+              <b>learned ˹magic˺ that caused a rift</b>
+              {space}˹even˺{space}
+              <b>between husband and wife</b>; although their magic could not
+              harm anyone except by Allah’s Will.
+            </i>
+            {space}They{space}
+            <i>learned what harmed them</i>
+            {space}and{space}
+            <i>
+              did not benefit them—although they already knew that whoever buys
+              into magic would have no share in the Hereafter
+            </i>
+            . Miserable indeed was the price for which they sold their souls, if
+            only they knew! (2:102)
           </div>
           A nihilistic religion [like Christianity], sprung from and appropriate
           to a people grown old and tame, having outlived all strong
