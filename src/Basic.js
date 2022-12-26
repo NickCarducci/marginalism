@@ -154,6 +154,11 @@ export default class Basic extends React.Component {
             back
             {/**i think satan is certain is anything (believe if anything) */}
           </div>
+          Literally take Financial Markets and Institutions with the description
+          of the financial crisis and say debt service should be returned upon
+          foreclosure and fail out.
+          <br />
+          <br />
           Do you want to be fucking nuts like Lawrence M. Ball? AIRU cannot be
           bad and GDP per capita nor real income growth good.
           <br />
