@@ -154,6 +154,10 @@ export default class Basic extends React.Component {
             back
             {/**i think satan is certain is anything (believe if anything) */}
           </div>
+          Do you want to be fucking nuts like Lawrence M. Ball? AIRU cannot be
+          bad and GDP per capita nor real income growth good.
+          <br />
+          <br />
           Is the loss of labor outcomes worth the equalization of welfare?
           Doesn't income equalization include poverty disparity narrowing and
           not necessarily persistent currency capital nor durable good,
