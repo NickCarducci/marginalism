@@ -146,14 +146,22 @@ export default class Basic extends React.Component {
             style={{
               position: "fixed", //salt bank vaults royalty stewardship
               right: "0px", //living commodities at the equator
-              top: "0px",
-              cursor: "pointer"
+              top: "0px", //"manipulation of credit system is by we are here"
+              cursor: "pointer" //general payday loans are exclusionary
+              //no longer boycotting credit (forced investment to bank)
+              //Isn't forced investment banking exclusionary?
+              //you can't teach resonsibility with ed tech
+              //work at 9
             }}
             onClick={() => this.setState({ onFactors: false })}
           >
             back
             {/**i think satan is certain is anything (believe if anything) */}
           </div>
+          When isn't unemployment marginal? Is a marginal or absolute derivative
+          a changing rate?
+          <br />
+          <br />
           Literally take Financial Markets and Institutions with the description
           of the financial crisis and say debt service should be returned upon
           foreclosure and fail out.
