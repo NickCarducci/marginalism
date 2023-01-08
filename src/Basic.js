@@ -169,8 +169,18 @@ export default class Basic extends React.Component {
            metaphorical ass beating-null: general maintenance consensus industry variability exclusion
 
            life insurance account
+
+           emergency doctors on the calendar
+
+           only medics
+
+           it's greatfor the ratings [it's the best]
             */}
           </div>
+          <span style={{ backgroundColor: "salmon", color: "white" }}>
+            emergency doctors on the calendar{space}&bull;{space}​only medics
+          </span>
+          <br />
           how does the anarchist confront the blessings of anyone but G-d? When
           isn't unemployment marginal? Is a marginal or absolute derivative a
           changing rate?
