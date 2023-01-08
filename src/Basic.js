@@ -165,12 +165,21 @@ export default class Basic extends React.Component {
            binary plaintiff democracy isn't always that way
 
            money velocity or tax rate subs [dude]
+
+           metaphorical ass beating-null: general maintenance consensus industry variability exclusion
+
+           life insurance account
             */}
           </div>
           how does the anarchist confront the blessings of anyone but G-d? When
           isn't unemployment marginal? Is a marginal or absolute derivative a
           changing rate?
           <h4>(​emergency inpatient bills indemnity scheduling yeesh)</h4>
+          warranty fraud (merchant escrow account, ​in all 50 state, ​i'm about
+          to{space}
+          <a href="https://vau.money">act without a license</a>)
+          <br />
+          <br />
           Literally take Financial Markets and Institutions with the description
           of the financial crisis and say debt service should be returned upon
           foreclosure and fail out.
