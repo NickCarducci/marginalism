@@ -156,12 +156,21 @@ export default class Basic extends React.Component {
             onClick={() => this.setState({ onFactors: false })}
           >
             back
-            {/**i think satan is certain is anything (believe if anything) */}
+            {/**i think satan is certain is anything (believe if anything) 
+            
+            ​do you make more than $10,275? Hoo boy do I need life insurance registered agents
+
+            ​danger to oneself is in the eye of the beholder or consensus?
+
+           binary plaintiff democracy isn't always that way
+
+           money velocity or tax rate subs [dude]
+            */}
           </div>
-          When isn't unemployment marginal? Is a marginal or absolute derivative
-          a changing rate?
-          <br />
-          <br />
+          how does the anarchist confront the blessings of anyone but G-d? When
+          isn't unemployment marginal? Is a marginal or absolute derivative a
+          changing rate?
+          <h4>(​emergency inpatient bills indemnity scheduling yeesh)</h4>
           Literally take Financial Markets and Institutions with the description
           of the financial crisis and say debt service should be returned upon
           foreclosure and fail out.
