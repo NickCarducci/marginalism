@@ -177,7 +177,9 @@ export default class Basic extends React.Component {
           <h4>(​emergency inpatient bills indemnity scheduling yeesh)</h4>
           warranty fraud (merchant escrow account, ​in all 50 state, ​i'm about
           to{space}
-          <a href="https://vau.money">act without a license</a>)
+          <a href="https://vau.money">act without a license</a>) How do account
+          transaction tax exemptions differ for life insurance and escrow
+          merchant processors?
           <br />
           <br />
           Literally take Financial Markets and Institutions with the description
