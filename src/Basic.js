@@ -179,7 +179,12 @@ export default class Basic extends React.Component {
           to{space}
           <a href="https://vau.money">act without a license</a>) How do account
           transaction tax exemptions differ for life insurance and escrow
-          merchant processors?
+          merchant processors? Doesn't a life insurance policy work as a living
+          will? Does it need to expire with non fiduciary depository inventory
+          nor warranty indemnity consumer fraud or can the certificate issuer
+          also be an outright either depositary or merchant processor? (​to be
+          tax deferred you need to write a will with a licensed insurer) Cost of
+          comfort
           <br />
           <br />
           Literally take Financial Markets and Institutions with the description
