@@ -184,7 +184,14 @@ export default class Basic extends React.Component {
           nor warranty indemnity consumer fraud or can the certificate issuer
           also be an outright either depositary or merchant processor? (​to be
           tax deferred you need to write a will with a licensed insurer) Cost of
-          comfort
+          comfort. Can a merchant processing sole proprietor also serve as a
+          board member?{space}
+          <span style={{ color: "cadetblue" }}>
+            Does an escrow account have the same tax deference privileges as a
+            licensed life insurance agent can shim?
+          </span>
+          {space}If you are a software developer, would you work for an
+          accounting firm or build a competitor?
           <br />
           <br />
           Literally take Financial Markets and Institutions with the description
